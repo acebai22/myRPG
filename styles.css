@@ -1,0 +1,80 @@
+body {
+    background-color: #54428E;
+font-family: sans-serif;  
+}
+  
+  #text {
+    background-color: #54428E;
+
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+  }
+  
+  #game {
+    width: 80%;
+    height: 80vh;
+    background-color: #AFE3C0;
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 10px;
+  }
+  
+  
+  #controls,
+  #stats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #0a0a23;
+    font-size:2rem;
+    
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: ;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    border-radius: .3rem;
+    color: #ffffff;
+    background-color: #8963BA;
+    height: 100px;
+    width: 100px;
+    border: 3px solid #54428E;
+  
+}
+  button:hover{
+    background: #688B58;
+    color: white;
+    border: 3px solid #54428E;
+  }
+
+  #monsterBox{
+
+width: 100%;
+height: 50%;
+display: flex;
+  }
+.invisible{
+    display: none;
+}
+
+  #inventoryList{
+    font-size: 2rem;
+    color: black;
+  }
+  .red{
+    background-color:red;
+    background: red;
+    color:red;
+    border: 100px solid red;
+  }
